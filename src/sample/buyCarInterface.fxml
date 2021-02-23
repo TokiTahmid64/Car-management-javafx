@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.*?>
+<AnchorPane prefHeight="568.0" prefWidth="749.0" xmlns="http://javafx.com/javafx/8.0.171"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.buyCarInterfaceController">
+    <children>
+        <ImageView fitHeight="409.0" fitWidth="617.0" layoutX="64.0" layoutY="87.0" pickOnBounds="true"
+                   preserveRatio="true" scaleX="1.25" scaleY="1.5">
+            <image>
+                <Image url="@../background_images/abstract-pattern-cyan-blue-wallpaper-preview.jpg"/>
+            </image>
+        </ImageView>
+        <TextField fx:id="registration" editable="false" layoutX="455.0" layoutY="61.0"/>
+        <TextField fx:id="model" editable="false" layoutX="455.0" layoutY="109.0"/>
+        <TextField fx:id="price" editable="false" layoutX="455.0" layoutY="156.0"/>
+        <TextField fx:id="color1" editable="false" layoutX="455.0" layoutY="250.0"/>
+        <TextField fx:id="color2" editable="false" layoutX="455.0" layoutY="293.0"/>
+        <TextField fx:id="color3" editable="false" layoutX="455.0" layoutY="344.0"/>
+        <TextField fx:id="available" editable="false" layoutX="455.0" layoutY="200.0"/>
+        <TextField fx:id="year" editable="false" layoutX="455.0" layoutY="393.0"/>
+        <TextField fx:id="manufacturer" editable="false" layoutX="455.0" layoutY="445.0"/>
+        <ImageView fx:id="image" fitHeight="288.0" fitWidth="315.0" layoutX="33.0" layoutY="106.0" pickOnBounds="true"
+                   preserveRatio="true"/>
+        <Button layoutX="111.0" layoutY="461.0" mnemonicParsing="false" onAction="#confirm" prefHeight="81.0"
+                prefWidth="160.0" text="Confirm Purchase" textAlignment="CENTER" wrapText="true"/>
+        <Label layoutX="359.0" layoutY="66.0" text="Registration" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="16.0"/>
+            </font>
+        </Label>
+        <Label layoutX="398.0" layoutY="118.0" text="Model" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="16.0"/>
+            </font>
+        </Label>
+        <Label layoutX="406.0" layoutY="167.0" text="Price" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="16.0"/>
+            </font>
+        </Label>
+        <Label layoutX="378.0" layoutY="206.0" text="Available" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="16.0"/>
+            </font>
+        </Label>
+        <Label layoutX="399.0" layoutY="258.0" text="Color1" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="16.0"/>
+            </font>
+        </Label>
+        <Label layoutX="400.0" layoutY="300.0" text="Color2" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="16.0"/>
+            </font>
+        </Label>
+        <Label layoutX="401.0" layoutY="346.0" text="Color3" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="16.0"/>
+            </font>
+        </Label>
+        <Label layoutX="410.0" layoutY="396.0" text="Year" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="16.0"/>
+            </font>
+        </Label>
+        <Label layoutX="348.0" layoutY="442.0" text="Manufacturer" textFill="#e8e5e5">
+            <font>
+                <Font name="System Bold" size="16.0"/>
+            </font>
+        </Label>
+        <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#back" text="Back"/>
+    </children>
+</AnchorPane>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<AnchorPane prefHeight="330.0" prefWidth="604.0" xmlns="http://javafx.com/javafx/8.0.171"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.manufactMainController">
+    <children>
+        <ImageView fitHeight="346.0" fitWidth="616.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../background_images/depositphotos_99983826-stock-video-abstract-3d-car-animation.jpg"/>
+            </image>
+        </ImageView>
+        <Button fx:id="viewAllCars" layoutX="184.0" layoutY="51.0" mnemonicParsing="false" onAction="#viewAllCars"
+                prefHeight="41.0" prefWidth="267.0" text="View All Cars" textFill="#3e16d9">
+            <font>
+                <Font name="System Bold" size="15.0"/>
+            </font>
+        </Button>
+        <Button layoutX="184.0" layoutY="102.0" mnemonicParsing="false" onAction="#addNewCar" prefHeight="41.0"
+                prefWidth="267.0" text="Add new Car" textFill="#3e16d9">
+            <font>
+                <Font name="System Bold" size="15.0"/>
+            </font>
+        </Button>
+        <Button layoutX="184.0" layoutY="206.0" mnemonicParsing="false" onAction="#deleteCar" prefHeight="41.0"
+                prefWidth="267.0" text="Delete Car" textFill="#3e16d9">
+            <font>
+                <Font name="System Bold" size="15.0"/>
+            </font>
+        </Button>
+        <Button layoutX="184.0" layoutY="154.0" mnemonicParsing="false" onAction="#editCar" prefHeight="41.0"
+                prefWidth="267.0" text="Edit car" textFill="#3e16d9">
+            <font>
+                <Font name="System Bold" size="15.0"/>
+            </font>
+        </Button>
+        <Button id="font-button" layoutX="495.0" layoutY="295.0" mnemonicParsing="false" onAction="#exit"
+                prefHeight="33.0" prefWidth="81.0" stylesheets="@../css/button.css" text="Log Out"/>
+    </children>
+</AnchorPane>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Rectangle2D?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.*?>
+<AnchorPane prefHeight="561.0" prefWidth="626.0" xmlns="http://javafx.com/javafx/8.0.171"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.addNewCarController">
+    <children>
+        <ImageView fitHeight="300.0" fitWidth="600.0" layoutX="88.0" layoutY="111.0" nodeOrientation="INHERIT"
+                   pickOnBounds="true" preserveRatio="true" scaleX="1.4" scaleY="2.0">
+            <image>
+                <Image url="@../background_images/40041769-black-wooden-background-or-wood-plank-texture.jpg"/>
+            </image>
+            <viewport>
+                <Rectangle2D minX="200.0"/>
+            </viewport>
+        </ImageView>
+        <TextField fx:id="reg" layoutX="134.0" layoutY="55.0"/>
+        <TextField fx:id="mod" layoutX="134.0" layoutY="99.0"/>
+        <TextField fx:id="pr" layoutX="134.0" layoutY="147.0"/>
+        <TextField fx:id="av" layoutX="134.0" layoutY="193.0"/>
+        <TextField fx:id="col1" layoutX="134.0" layoutY="238.0"/>
+        <Label layoutX="40.0" layoutY="59.0" text="Registration" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="15.0"/>
+            </font>
+        </Label>
+        <Label layoutX="79.0" layoutY="103.0" text="Model" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="15.0"/>
+            </font>
+        </Label>
+        <Label layoutX="87.0" layoutY="151.0" text="Price" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="15.0"/>
+            </font>
+        </Label>
+        <Label layoutX="59.0" layoutY="197.0" text="Available" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="15.0"/>
+            </font>
+        </Label>
+        <Label layoutX="80.0" layoutY="242.0" text="Color1" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="15.0"/>
+            </font>
+        </Label>
+        <Button layoutX="257.0" layoutY="484.0" mnemonicParsing="false" onAction="#add" prefHeight="56.0"
+                prefWidth="64.0" text="ADD"/>
+        <TextField fx:id="col2" layoutX="134.0" layoutY="282.0"/>
+        <TextField fx:id="col3" layoutX="134.0" layoutY="322.0"/>
+        <Label layoutX="81.0" layoutY="286.0" text="Color2" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="15.0"/>
+            </font>
+        </Label>
+        <Label layoutX="82.0" layoutY="326.0" text="Color3" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="15.0"/>
+            </font>
+        </Label>
+        <Label layoutX="91.0" layoutY="368.0" text="Year" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="15.0"/>
+            </font>
+        </Label>
+        <Label layoutX="29.0" layoutY="406.0" text="Manufacturer" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="15.0"/>
+            </font>
+        </Label>
+        <TextField fx:id="yr" layoutX="134.0" layoutY="364.0"/>
+        <TextField fx:id="man" layoutX="134.0" layoutY="405.0"/>
+        <Button layoutX="21.0" layoutY="14.0" mnemonicParsing="false" onAction="#back" text="Back"/>
+        <Button layoutX="413.0" layoutY="332.0" mnemonicParsing="false" onAction="#choose" text="Select Image"/>
+        <ImageView fx:id="image" fitHeight="213.0" fitWidth="246.0" layoutX="343.0" layoutY="102.0" pickOnBounds="true"
+                   preserveRatio="true"/>
+        <Label layoutX="208.0" layoutY="4.0" text="Add New Car" textFill="#62d8ff">
+            <font>
+                <Font size="35.0"/>
+            </font>
+        </Label>
+    </children>
+</AnchorPane>

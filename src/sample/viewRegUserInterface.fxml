@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.*?>
+<AnchorPane prefHeight="512.0" prefWidth="714.0" xmlns="http://javafx.com/javafx/8.0.171"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.viewRegUserInterfaceController">
+    <children>
+        <ImageView fitHeight="400.0" fitWidth="704.0" layoutX="57.0" layoutY="57.0" pickOnBounds="true"
+                   preserveRatio="true" scaleX="1.2" scaleY="1.3">
+            <image>
+                <Image url="@../background_images/40041769-black-wooden-background-or-wood-plank-texture.jpg"/>
+            </image>
+        </ImageView>
+        <TextField fx:id="registration" editable="false" layoutX="452.0" layoutY="95.0"/>
+        <TextField fx:id="model" editable="false" layoutX="452.0" layoutY="144.0"/>
+        <TextField fx:id="price" editable="false" layoutX="452.0" layoutY="196.0"/>
+        <TextField fx:id="available" editable="false" layoutX="452.0" layoutY="241.0"/>
+        <TextField fx:id="color1" editable="false" layoutX="452.0" layoutY="289.0"/>
+        <Label layoutX="357.0" layoutY="99.0" text="Registration" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="15.0"/>
+            </font>
+        </Label>
+        <Label layoutX="357.0" layoutY="148.0" text="Model" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="15.0"/>
+            </font>
+        </Label>
+        <Label layoutX="357.0" layoutY="200.0" text="Price" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="15.0"/>
+            </font>
+        </Label>
+        <Label layoutX="357.0" layoutY="245.0" text="Available" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="15.0"/>
+            </font>
+        </Label>
+        <Label layoutX="357.0" layoutY="293.0" text="Color1" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="15.0"/>
+            </font>
+        </Label>
+        <TextField fx:id="color2" editable="false" layoutX="452.0" layoutY="331.0"/>
+        <TextField fx:id="color3" editable="false" layoutX="452.0" layoutY="373.0"/>
+        <TextField fx:id="year" editable="false" layoutX="452.0" layoutY="412.0"/>
+        <TextField fx:id="manufacturer" editable="false" layoutX="452.0" layoutY="455.0"/>
+        <Label layoutX="355.0" layoutY="335.0" text="Color2" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="15.0"/>
+            </font>
+        </Label>
+        <Label layoutX="355.0" layoutY="377.0" text="Color3" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="15.0"/>
+            </font>
+        </Label>
+        <Label layoutX="361.0" layoutY="416.0" text="Year" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="15.0"/>
+            </font>
+        </Label>
+        <Label layoutX="346.0" layoutY="459.0" text="Manufacturer" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="15.0"/>
+            </font>
+        </Label>
+        <Button layoutX="37.0" layoutY="39.0" mnemonicParsing="false" onAction="#back" text="Back"/>
+        <ImageView fx:id="image" fitHeight="283.0" fitWidth="307.0" layoutX="26.0" layoutY="144.0" pickOnBounds="true"
+                   preserveRatio="true"/>
+    </children>
+</AnchorPane>
